@@ -1,7 +1,32 @@
-.main.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
+.header {
+    overflow: hidden;
     background-color: #1F2937;
+    padding: auto;
+}
+
+.header a {
+    float: left;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 20px;
+    border-radius: 4px;
+}
+
+.header a.logo {
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header a.active {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header-right {
+    float: right;
 }
