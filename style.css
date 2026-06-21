@@ -29,7 +29,16 @@ nav a {
     background-color: #1f2937;
     padding-inline: 200px;
     padding-bottom: 50px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
  }
+ img {
+    margin-top: 50px;
+    margin-left: 5px;
+    width: 380px;
+    border-radius: 10px;
+  }
  .hero-text h1 {
     font-size: 48px;
     color: #f9faf8;
@@ -48,15 +57,3 @@ nav a {
     font-size: 18px;
     font-weight: bold;
   }
-.img-placeholder {
-    position: relative;
-    aspect-ratio: 16 / 9;
-    overflow: hidden;
-    width: 100%;
-}
-.img-placeholder img {
-    display: block;
-    width: 50%;
-    height: 50%;
-    object-fit: cover;
-}
