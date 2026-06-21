@@ -57,3 +57,19 @@ nav a {
     font-size: 18px;
     font-weight: bold;
   }
+  main {
+    display: flex;
+    padding-inline: 200px;
+    background-color: white;
+  }
+ .container img {
+    width: 150px;
+    height: auto;
+    border-color: #3882f6;
+    margin-inline-start: 50px;
+ }
+ h5 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 900;
+ }
