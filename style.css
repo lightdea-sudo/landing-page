@@ -99,4 +99,14 @@ nav a {
  figcaption {
     text-align: right;
     padding-right: 200px;
+    padding-bottom: 30px;
+ }
+ footer {
+   background-color: #1f2937;
+   padding: 20px;
+   text-align: center;
+ }
+ .copyright {
+   font-size: 18px;
+   color: #e5e7eb;
  }
