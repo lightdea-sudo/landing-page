@@ -110,3 +110,26 @@ nav a {
    font-size: 18px;
    color: #e5e7eb;
  }
+ .cta-container {
+   padding: 200px;
+   padding-bottom: 20px;
+   padding-top: 20px;
+   margin: 0%;
+ }
+ .cta-content {
+   padding: 20px;
+   border-radius: 10px;
+   background-color: #3882f6;
+   color: #f9faf8;
+ }
+ .cta-tittle {
+   display: flex;
+   font-size: 20px;
+   font-weight: 900;
+   text-align: center;
+}
+ .cta-description {
+   display: flex;
+   font-size: 18px;
+   text-align: center;
+ }
