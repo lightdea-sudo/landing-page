@@ -63,6 +63,8 @@ nav a {
     background-color: white;
   }
  .container img {
+    border-radius: 25px;
+    border: #3882f6 solid 2px;
     width: 150px;
     height: auto;
     border-color: #3882f6;
