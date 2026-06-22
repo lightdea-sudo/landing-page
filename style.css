@@ -63,15 +63,40 @@ nav a {
     background-color: white;
   }
  .container img {
-    border-radius: 25px;
-    border: #3882f6 solid 2px;
-    width: 150px;
-    height: auto;
+    border-radius: 10px;
+    border: #3882f6 solid 3px;
+    width: 180px;
     border-color: #3882f6;
-    margin-inline-start: 50px;
+    justify-content: space-between;
  }
  h5 {
     text-align: center;
     font-size: 26px;
     font-weight: 900;
+    padding-bottom: 10px;
+ }
+ .img-list {
+    display: flex;
+    list-style: none;
+ }
+ .img-list p {
+    text-align: center;
+ }
+ .quote {
+    padding: 10px;
+    margin: 0%;
+    background-color: #e5e7eb;
+ }
+ blockquote {
+    text-align: justify;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    padding: 200px;
+    padding-bottom: 0%;
+    padding-top: 10px;
+ }
+ figcaption {
+    text-align: right;
+    padding-right: 200px;
  }
